@@ -7,59 +7,59 @@ Build Documents for Pan Galactic FX Mega Chorus
 ## BOM
 
 
-|  | Ref       |  Value        | Type                  | Notes          |   
-|  | --------- | ------------- | --------------------- | -------------- | 
-|  | R1        | 10k           | Resistor              |                |  
-|  | R2        | 47k           | Resistor              |                | 
-|  | R3        | 12k           | Resistor              |                |  
-|  | R4        | 12k           | Resistor              |                |     
-|  | R5        | 47k           | Resistor              |                |   
-|  | R6        | 10k           | Resistor              |                |          
-|  | R7        | 1k            | Resistor              |                |           
-|  | R8        | 12k           | Resistor              |                |           
+| No. | Ref       |  Value        | Type                  | Notes          |   
+|---  | --------- | ------------- | --------------------- | -------------- | 
+| 1 | R1        | 10k           | Resistor              |                |  
+| 2 | R2        | 47k           | Resistor              |                | 
+| 3 | R3        | 12k           | Resistor              |                |  
+| 4 | R4        | 12k           | Resistor              |                |     
+| 5 | R5        | 47k           | Resistor              |                |   
+| 6 | R6        | 10k           | Resistor              |                |          
+| 7 | R7        | 1k            | Resistor              |                |           
+| 8 | R8        | 12k           | Resistor              |                |           
 |  |           |               |                       |                |           
-|  | R9        | 47k           | Resistor              |                |            
-|  | R10       | 10k           | Resistor              |                |         
-|  | R11       | 1M            | Resistor              |                |             
-|  | R12       | 1M            | Resistor              |                |             
-|  | R13       | 10k           | Resistor              |                |            
-|  | R14       | 10k           | Resistor              |                |        
-|  | R15       | 10k           | Resistor              |                |            
-|  | R16       | 10k           | Resistor              |                |             
-|  | R17       | 10k           | Resistor              |                |
-|  | R18       | 100k          | Resistor              |                |         
-|  | R19       | 10k           | Resistor              |                |        
-|  | R16A1     | 56k           | Resistor              | Only   Install for     MN3007          |     
-|  | R16B1     | 56k           | Resistor              | Only           Install    for       MN3207/8    |
-|  | R20       | 10k           | Resistor              |              
-|  | R21       | 12k           | Resistor              |               
-|  | R22       | 10k           | Resistor              |              
-|  | R23       | 390r          | Resistor              |                |
-|  | R24       | 330k          | Resistor              |                |     
-|  | R25       | 4k7           | Resistor              |                |         
-|  | R26       | 10k           | Resistor              |                |            
-|  | R27       | 100k          | Resistor              |                |              
-|  | R28       | 10k           | Resistor              |                |              
-|  | R29       | 330k          | Resistor              |                |            
-|  | R30       | 10k           | Resistor              |                |          
-|  | R31       | CLR           | Resistor              |                |           
-|  | R32       | 470r          | Resistor              |                |            
-|  | RR1       | 33r           | Resistor              | Install       this          if            using       |MN3007      |       
-|  | and       | NOT           | installing            | the            voltage      regulator                
-|  | All       | The            following             | Resitors        are           part          of           the          Clock/LFO  Circuit   | 
-|  | CR1       | 100k          | Resistor              |                |           
-|  | CR2       | CLR           | Resistor              |                |            
-|  | CR3       | CLR           | Resistor              |                |            
-|  | CR4       | 2k7           | Resistor              |                |             
-|  | CR5       | 33k           | Resistor              |                |            
-|  | CR6       | CLR(2k2)      | Resistor              | 2k2            | indicated    | on           | original    | schematic   |          
-|  | CR7       | 10k           | Resistor              |                |       
-|  | CR8       | 10k           | Resistor              |                |          
-|  | CR9       | 10k           | Resistor              |                |            
-|  | CR10      | 10k           | Resistor              |                |          
-|  | CR11      | 10k           | Resistor              |                |             
-|  | CR12      | 33k           | Resistor              |                |            
-|  |           |               |                       |                |             
+| 9 | R9        | 47k           | Resistor              |                |            
+| 10 | R10       | 10k           | Resistor              |                |         
+| 11 | R11       | 1M            | Resistor              |                |             
+| 12 | R12       | 1M            | Resistor              |                |             
+| 13 | R13       | 10k           | Resistor              |                |            
+| 14 | R14       | 10k           | Resistor              |                |        
+| 15 | R15       | 10k           | Resistor              |                |            
+| 16 | R16       | 10k           | Resistor              |                |             
+| 17 | R17       | 10k           | Resistor              |                |
+| 18 | R18       | 100k          | Resistor              |                |         
+| 19 | R19       | 10k           | Resistor              |                |        
+| 20 | R16A1     | 56k           | Resistor              | Only   Install for     MN3007          |     
+| 21 | R16B1     | 56k           | Resistor              | Only           Install    for       MN3207/8    |
+| 22 | R20       | 10k           | Resistor              |              
+| 23 | R21       | 12k           | Resistor              |               
+| 24 | R22       | 10k           | Resistor              |              
+| 25 | R23       | 390r          | Resistor              |                |
+| 26 | R24       | 330k          | Resistor              |                |     
+| 27 | R25       | 4k7           | Resistor              |                |         
+| 28 | R26       | 10k           | Resistor              |                |            
+| 29 | R27       | 100k          | Resistor              |                |              
+| 30 | R28       | 10k           | Resistor              |                |              
+| 31 | R29       | 330k          | Resistor              |                |            
+| 32 | R30       | 10k           | Resistor              |                |          
+| 33 | R31       | CLR           | Resistor              |                |           
+| 34 | R32       | 470r          | Resistor              |                |            
+| 35 | RR1       | 33r           | Resistor              | Install       this          if            using       |MN3007      |       
+| 36 | and       | NOT           | installing            | the            voltage      regulator                
+| 37 | All       | The            following             | Resitors        are           part          of           the          Clock/LFO  Circuit   | 
+| 38 | CR1       | 100k          | Resistor              |                |           
+| 39 | CR2       | CLR           | Resistor              |                |            
+| 40 | CR3       | CLR           | Resistor              |                |            
+| 41 | CR4       | 2k7           | Resistor              |                |             
+| 42 | CR5       | 33k           | Resistor              |                |            
+| 43 | CR6       | CLR(2k2)      | Resistor              | 2k2            | indicated    | on           | original    | schematic   |          
+| 44 | CR7       | 10k           | Resistor              |                |       
+| 45 | CR8       | 10k           | Resistor              |                |          
+| 46 | CR9       | 10k           | Resistor              |                |            
+| 47 | CR10      | 10k           | Resistor              |                |          
+| 48 | CR11      | 10k           | Resistor              |                |             
+| 49 | CR12      | 33k           | Resistor              |                |            
+| 50 |           |               |                       |                |             
 |  | CR13      | 68k           | Resistor              | See            | NOTES        | regarding    | Sine        | Trim        | Trimpot   |        
 |  | CR14      | 33k           | Resistor              |                |            
 |  | CR15      | 47k           | Resistor              |                |          
