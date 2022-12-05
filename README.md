@@ -1,7 +1,43 @@
 # PGFX_MegaChorus V1.0
 Build Documents for Pan Galactic FX Mega Chorus
 
+Please find BOM at the bottom of this document.
+
 ![image](https://user-images.githubusercontent.com/53580358/205485727-40fc8b8e-c4ad-4a11-8edd-47d804779c71.png)
+
+
+## Build Notes: 
+
+**Please read the entire document before commencing build.**
+
+_We Recommend starting with the smallest components first, the resistors and diodes, before moving onto
+sockets for the ICs, caps and transistors. Check the polarity of diodes and Electrolytic caps!_
+
+### NOTES REGARDING BBD CHIP SELECTION
+_This PCB can be used with MN3007 BBDs which can work with up to a 15v supply, though we recommend
+using 12v at the maximum, or it can be configured to work with MN3207/8 BBDs which can only work up
+to an 8v supply, for which a space for a voltage regulator is provided._
+
+#### To configure the board for MN3007:
+- Connect BBDPwr to Vreg - Shown with Orange <br>
+if following the MegaChorus Schematic: <br>
+- Connect BBD VDD to Vb – Shown with Yellow 
+Or, Alternatively the Boss CE 2 Schematic shows:
+- BBD VDD to GND – Shown in Blue (Experimental) 
+
+*For MN3007* - *R16A1* Should be installed, *R16B1* Should be omitted.
+
+If using *MN3007*
+– You Must use MN3101 Clock
+If *MN3007* is used
+- 8v Regulator does not
+need to be installed, but RR1 is required instead
+
+![image](https://user-images.githubusercontent.com/53580358/205697090-64366a96-3f7d-46fe-be82-11de7e7c8f5e.png)
+
+
+
+
 
 
 ## BOM
